@@ -27,3 +27,5 @@ include $(LOCAL_PATH)/product/*.mk
 
 # Call the proprietary setup
 $(call inherit-product, vendor/yu/lettuce/lettuce-vendor.mk)
+$(call inherit-product-if-exists, vendor/volte/volte.mk)
+$(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
