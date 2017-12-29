@@ -79,7 +79,9 @@
         <item>222</item>
         <item>255</item>
     </integer-array>
-
+ 
+    <!-- Enable Navigation Bar -->
+    <bool name="config_showNavigationBar">true</bool>
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
